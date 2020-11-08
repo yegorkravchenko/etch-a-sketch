@@ -78,5 +78,3 @@ randomColorBtn.addEventListener('click', (e) => {
 window.addEventListener('load', () => {
     setGrid(16);
 });
-
-console.log(randomColor());

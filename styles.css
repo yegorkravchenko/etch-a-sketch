@@ -131,3 +131,21 @@ button {
     font-size: 1.2rem;
     font-weight: 600;
 }
+
+@media only screen and (max-width: 500px) {
+    .header {
+        margin: 15px 0 40px 0;
+    }
+
+    .header__title {
+        font-size: 3.2rem;
+        text-shadow: 2.7px 2.7px 0px #0F0F0F;
+    }
+
+    .main__grid-container {
+        width: 80vw;
+        height: 80vw;
+        box-shadow: 7px 7px 0px #0F0F0F;
+        margin: 30px 0 30px 0;
+    }
+}
