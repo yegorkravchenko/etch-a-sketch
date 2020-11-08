@@ -91,7 +91,7 @@ button {
     background-color: white;
     border: 2px solid #0F0F0F;
     box-shadow: 15px 15px 0px #0F0F0F;
-    margin: 30px 0 60px 0;
+    margin: 30px 0 100px 0;
     height: 460px;
     width: 460px;
 }
@@ -107,4 +107,27 @@ button {
     align-self: stretch;
     background-color: white;
     border: 1px dotted #0F0F0F;
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.footer__view-btn {
+    display: inline-block;
+    color: #0F0F0F;
+    border-bottom: 1px dotted #27B1BE;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.footer__view-btn:hover {
+    color: #27B1BE;
+}
+
+.footer__text {
+    font-size: 1.2rem;
+    font-weight: 600;
 }
